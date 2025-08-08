@@ -8,7 +8,6 @@ This repository recreates the core analysis from the knowledge management (KMS) 
 - `data/KM_Data.xlsx` — Synthetic dataset (sheet: `Combined`).
 - `scripts/km_tables.sas` — SAS script to generate Tables 1–4.
 - `out/` — Folder where outputs will be saved.
-- `visuals/` — (Optional) screenshots of outputs.
 
 ## How to run
 1. Open SAS (Base SAS/EG/Studio).
@@ -18,16 +17,6 @@ This repository recreates the core analysis from the knowledge management (KMS) 
 Outputs:
 - `out/KM_Data_Tables.xlsx` — Excel with tables 1–4.
 - `out/KM_Data_Tables.rtf` — (optional) RTF output.
-
-## Data schema detected from your XLSX
-- **Sheet used**: `Sheet1`
-- **Total rows**: 991
-- **Column mapping (auto-detected)**:
-  - Category → `Category`
-  - Priority → `Priority`
-  - Phase → `Phase`
-  - Response_Time_Hours → `Response_Time_Hours`
-  - Support_level → `Support_level`
 
 > The synthetic data preserves **structure and approximate distributions** only. No original records are included.
 
